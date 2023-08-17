@@ -1,0 +1,96 @@
+.footer {
+  background-color: #F8F8F8;
+  padding: 40px 0;
+}
+/* Footer content container */
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Keep In Touch section */
+.keep-in-touch {
+  flex-basis: 100%;
+  margin-bottom: 20px;
+}
+.keep-in-touch h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.keep-in-touch p {
+  margin-bottom: 20px;
+  color: #888;
+}
+.sign-up-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+/* Footer links section */
+.footer-links {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+/* Individual link categories */
+.product-links,
+.company-links,
+.support-links,
+.social-links,
+.legal-links {
+  flex-basis: calc(25% - 20px); /* Four columns with spacing */
+  padding-right: 20px;
+}
+.product-links h4,
+.company-links h4,
+.support-links h4,
+.social-links h4,
+.legal-links h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+/* List styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 8px;
+}
+/* Copyright and legal links */
+.legal-links {
+  margin-top: 20px;
+}
+.legal-links a {
+  margin-right: 20px;
+  color: #888;
+  text-decoration: none;
+}
+/* Powered by section */
+.powered-by {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #888;
+}
+.powered-by a {
+  margin-left: 5px;
+  color: #333;
+  text-decoration: none;
+}
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .footer-links,
+  .keep-in-touch {
+    flex-basis: 100%;
+  }
+  .footer-links > * {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+}

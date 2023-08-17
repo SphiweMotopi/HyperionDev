@@ -1,0 +1,63 @@
+
+
+  
+  .banner-2-content {
+    display: flex;
+    align-items: center;
+  }
+
+  span.carousel-control-prev-icon {
+    background-color: black;
+    border-radius: 5px;
+    margin-left: -136px;
+    }
+
+    span.carousel-control-next-icon {
+        background-color: black;
+        border-radius: 5px;
+        margin-right: -136px;
+    }
+  
+  .text-2 {
+    color: white;
+    flex: 1;
+    padding-left: 90px; 
+  }
+  
+  .text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .text h3 {
+    font-size: 1.2rem; 
+  }
+  
+  .text p {
+    font-size: 1.2rem;
+    margin-bottom: 20px; 
+  }
+  
+  .image-2 {
+    flex: 2; 
+    text-align: right;
+  }
+  
+  .image-2 img {
+    max-width: 90%;
+    border-radius: 0px 0px 0px 60px;
+    padding-right: 0 !important;
+  }
+  .dinner {
+    background-color: rgba(148, 149, 148, 0.484);
+  }
+  .food {
+    background-color: #27b5077f;
+  }
+  .toast {
+    background-color: rgba(148, 149, 148, 0.484);
+  }
+  .roasted {
+    background-color: #27b5077f;
+  }
+  
