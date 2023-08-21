@@ -5,10 +5,12 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <div className="keep-in-touch">
+      <div className="keep-in-touch">
+      <div className="email-input">
           <h3>KEEP IN TOUCH WITH OUR KITCHEN</h3>
-          <p>Enter your email</p>
-          <button className="sign-up-button">SIGN ME UP</button>
+            <input type="email" placeholder="Enter your email" />
+            <button className="sign-up-button">SIGN ME UP</button>
+          </div>
         </div>
         <div className="footer-links">
           <div className="product-links">
@@ -40,13 +42,19 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright">
-        <p>2023 © UCOOK. All rights reserved by The Supper Society Proprietary Limited | Liquor License: WCP/042073 | GAU/10615</p>
         <div className="legal-links">
-          <a href="/">Terms & Conditions</a>
-          <a href="/">Privacy Policy</a>
-          <a href="/">Referral Terms</a>
+          <p className="legal-links-text">
+            2023 © UCOOK. All rights reserved by The Supper Society Proprietary Limited | Liquor License: WCP/042073 | GAU/10615
+            <a href="/">Terms & Conditions</a>
+            <a href="/">Privacy Policy</a>
+            <a href="/">Referral Terms</a>
+          </p>
         </div>
       </div>
+        <div className="legal-links">
+          <a href="https://www.ucook.co.za/">The site I cloned</a>
+          <a href="/">Sphiwe Mkwatheni</a>
+        </div>
     </footer>
   );
 };

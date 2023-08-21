@@ -4,7 +4,6 @@ import Banner from './Banner';
 import BannerCart from './BannerCart';
 import './Home.css';
 import Testimonials from './Testimonials';
-import CardCarousel from './CardCarousel';
 import Carousel from './Carousel';
 import Footer from './Footer';
 
@@ -84,7 +83,6 @@ const Home = () => {
         <Button variant="dark">GET STARTED NOW</Button>
       </section>
       <Testimonials />
-      <CardCarousel />
       <Carousel />
       <Footer />
     </div>
